@@ -1,0 +1,316 @@
+preparativos:
+  name: 'Preparativos'
+  rarity: COMUM
+  permission: 'role.vip'
+  icon: 'BREAD : 1 : desc>&7Verdadeiros guerreiros vão à batalha\n&7preparados para o combate.\n \n&8{description}'
+  levels:
+    # Esse número representa o nível do habilidade
+    1:
+      coins: 5000.0
+      cash: 25
+      description: 'Você não sentirá fome durante a partida.'
+insanidade:
+  name: 'Insanidade'
+  rarity: EPICO
+  permission: ''
+  icon: 'WOOD_SWORD : 1 : esconder>tudo : desc>&7Após abater um oponente você perde o\n&7controle e se torna cada vez mais forte.\n \n&8Após abater um oponente você receberá\n&8{description}.'
+  levels:
+    1:
+      coins: 10000.0
+      cash: 50
+      level: 1
+      time: 60 # O tempo é em ticks (20ticks = 1 segundo)
+      description: 'Força I por 3 segundos'
+    2:
+      coins: 5000.0
+      cash: 25
+      level: 1
+      time: 100
+      description: 'Força I por 5 segundos'
+    3:
+      coins: 5000.0
+      cash: 25
+      level: 2
+      time: 60
+      description: 'Força II por 3 segundos'
+    4:
+      coins: 5000.0
+      cash: 25
+      level: 2
+      time: 100
+      description: 'Força II por 5 segundos'
+maestria_com_arcos:
+  name: 'Maestria com Arcos'
+  rarity: RARO
+  permission: ''
+  icon: 'BOW : 1 : desc>&7Você dominou completamente os arcos,\n&7sua eficiência te traz vantagens únicas.\n \n&8Você tem uma chance de {description}\n&8de recuperar sua flecha ao atirá-la.'
+  levels:
+    1:
+      coins: 10000.0
+      cash: 50
+      percentage: 20
+      description: '20%'
+    2:
+      coins: 5000.0
+      cash: 25
+      percentage: 30
+      description: '30%'
+    3:
+      coins: 5000.0
+      cash: 25
+      percentage: 40
+      description: '40%'
+    4:
+      coins: 5000.0
+      cash: 25
+      percentage: 50
+      description: '50%'
+feiticeiro:
+  name: 'Feiticeiro'
+  rarity: COMUM
+  permission: 'role.mvp'
+  icon: 'EXP_BOTTLE : 1 : desc>&7Você é um feiticeiro com uma habilidade\n&7perspiscaz e digna de notoriedade.\n \n&8Após abater um oponente você receberá\n&8{description}.'
+  levels:
+    1:
+      coins: 5000.0
+      cash: 25
+      level: 1
+      description: '1 Nível de EXP'
+    2:
+      coins: 5000.0
+      cash: 25
+      level: 2
+      description: '2 Níveis de EXP'
+    3:
+      coins: 5000.0
+      cash: 25
+      level: 3
+      description: '3 Níveis de EXP'
+    4:
+      coins: 5000.0
+      cash: 25
+      level: 4
+      description: '4 Níveis de EXP'
+piromaniaco:
+  name: 'Piromaníaco'
+  rarity: RARO
+  permission: ''
+  icon: 'MAGMA_CREAM : 1 : desc>&7Você adora atear fogo em seus oponentes,\n&7por isso conhece alguns truques com fogo.\n \n&8Ao atingir um oponente com uma flecha, você\n&8tem a chance de {description} de atear fogo nele.'
+  levels:
+    1:
+      coins: 5000.0
+      cash: 25
+      percentage: 10
+      description: '10%'
+    2:
+      coins: 5000.0
+      cash: 25
+      percentage: 20
+      description: '20%'
+    3:
+      coins: 5000.0
+      cash: 25
+      percentage: 30
+      description: '30%'
+resistente_a_quedas:
+  name: 'Resistente a quedas'
+  rarity: EPICO
+  permission: ''
+  icon: 'FEATHER : 1 : desc>&7Você aprendeu uma técnica que permite com\n&7que você controle melhor as quedas.\n \n&8{description}'
+  levels:
+    1:
+      coins: 10000.0
+      cash: 50
+      description: 'Você não receberá dano de queda.'
+mestre_do_fim:
+  name: 'Mestre do Fim'
+  rarity: EPICO
+  permission: ''
+  icon: 'ENDER_PEARL : 1 : desc>&7Você é um mestre das terras do fim,\n&7teleporte-se tranquilo.\n \n&8O dano causado por pérolas do\n&8fim será reduzido em {description}&8.'
+  levels:
+    1:
+      coins: 5000.0
+      cash: 25
+      percentage: 50
+      description: '50%'
+    2:
+      coins: 5000.0
+      cash: 25
+      percentage: 100
+      description: '100%'
+frio_no_combate:
+  name: 'Frio no Combate'
+  rarity: RARO
+  permission: 'role.mvpplus'
+  icon: 'YELLOW_FLOWER : 1 : desc>&7Você está sempre focado e concentrado no\n&7combate com seus oponentes.\n \n&8Após abater um oponente você receberá\n&8{description}.'
+  levels:
+    1:
+      coins: 10000.0
+      cash: 50
+      level: 1
+      time: 100 # O tempo é em ticks (20ticks = 1 segundo)
+      description: 'Regeneração I por 5 segundos'
+    2:
+      coins: 5000.0
+      cash: 25
+      level: 1
+      time: 200
+      description: 'Regeneração I por 10 segundos'
+    3:
+      coins: 5000.0
+      cash: 25
+      level: 2
+      time: 100
+      description: 'Regeneração II por 5 segundos'
+    4:
+      coins: 5000.0
+      cash: 25
+      level: 2
+      time: 200
+      description: 'Regeneração II por 10 segundos'
+vingança:
+  name: 'Vingança'
+  rarity: COMUM
+  permission: 'role.mvpp'
+  icon: 'TNT : 1 : desc>&7Você não desiste fácil, tenha uma última\n&7chance de tentar abater seu oponente.\n \n&8{description}'
+  levels:
+    1:
+      coins: 10000.0
+      cash: 50
+      description: 'Após ser abatido você causa uma explosão.'
+ocultista:
+  name: 'Ocultista'
+  rarity: DIVINO
+  permission: 'role.vip'
+  icon: 'EYE_OF_ENDER : 1 : desc>&7Você sabe alguns segredinhos sobre\n&7a terra do fim.\n \n&8Após abater um oponente você tem\n&8a chance de {description} de receber uma pérola\n&8do fim.'
+  levels:
+    1:
+      coins: 10000.0
+      cash: 50
+      percentage: 25
+      description: '25%'
+    2:
+      coins: 5000.0
+      cash: 25
+      percentage: 50
+      description: '50%'
+    3:
+      coins: 5000.0
+      cash: 25
+      percentage: 75
+      description: '75%'
+trevo_da_sorte:
+  name: 'Trevo da Sorte'
+  rarity: EPICO
+  permission: 'role.vip'
+  icon: 'WATER_LILY : 1 : desc>&7Você é um grande sortudo!\n \n&8Após quebrar um bloco você tem\n&8a chance de {description} de receber uma maçã\n&8dourada dos escombros.'
+  levels:
+    1:
+      coins: 10000.0
+      cash: 50
+      percentage: 5
+      description: '5%'
+    2:
+      coins: 5000.0
+      cash: 25
+      percentage: 7
+      description: '7%'
+    3:
+      coins: 5000.0
+      cash: 25
+      percentage: 10
+      description: '10%'
+blindado:
+  name: 'Blindado'
+  rarity: DIVINO
+  permission: ''
+  icon: 'DIAMOND_CHESTPLATE : 1 : desc>&7Para que mesa de encantamentos?\n \n&8A cada 2 abates realizados toda sua\n&8armadura irá receber 1 nível de Proteção\n&8até o nível limite de {description}.'
+  levels:
+    1:
+      coins: 10000.0
+      cash: 50
+      limit: 1
+      description: '1'
+    2:
+      coins: 5000.0
+      cash: 25
+      limit: 2
+      description: '2'
+    3:
+      coins: 5000.0
+      cash: 100
+      limit: 3
+      description: '3'
+foguete:
+  enabled: true
+  name: 'Foguete'
+  rarity: DIVINO
+  permission: ''
+  icon: 'FIREWORK : 1 : desc>&7Receba um foguete que te impulsiona\n&7para cima sempre que você precisar!'
+  levels:
+    1:
+      coins: 10000.0
+      cash: 50
+      delay: 45
+      description: '45s'
+    2:
+      coins: 5000.0
+      cash: 25
+      delay: 40
+      description: '40s'
+    3:
+      coins: 5000.0
+      cash: 100
+      delay: 35
+      description: '35s'
+    4:
+      coins: 10000.0
+      cash: 150
+      delay: 30
+      description: '30s'
+vidaextra:
+  name: 'Vida Extra'
+  rarity: RARO
+  permission: ''
+  icon: '260 : 1 : desc>&7Vida não será um problema! Receba\n&7corações de vida extra para te\n&7ajudar em sua batalha.'
+  levels:
+    1:
+      coins: 10000.0
+      cash: 50
+      extra_health: 1
+      description: '1 Coração Extra'
+    2:
+      coins: 5000.0
+      cash: 25
+      extra_health: 2
+      description: '2 Corações Extra'
+headshot:
+  name: 'Headshot'
+  rarity: EPICO
+  permission: 'Headshot'
+  icon: 'FERMENTED_SPIDER_EYE : 1 : desc>&7Tenha chance de deixar seu inimigo\n&7com naúsea ao acertar uma flecha\n&7em sua cabeça.'
+  levels:
+    1:
+      coins: 10000.0
+      cash: 50
+      level: 2
+      time: 200
+      percentage: 10
+      description: '10% de Chance'
+    2:
+      coins: 15000.0
+      cash: 75
+      level: 2
+      time: 200
+      percentage: 20
+      description: '20% de Chance'
+necromante:
+  name: 'Necromante'
+  rarity: DIVINO
+  permission: 'Necromante'
+  icon: 'ROTTEN_FLESH : 1 : desc>&7Nasce um Zumbi amigo\n&7quando você morrer.'
+  levels:
+    1:
+      coins: 20000.0
+      cash: 75
+      description: '1 Zumbi'

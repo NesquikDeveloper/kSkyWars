@@ -1,0 +1,15 @@
+# DISPONÍVEL:
+# 'kits'
+# 'perks'
+kits:
+  # Id do kit
+  1:
+   # Porcentagem de Desconto
+   promotion: 30
+   cash_promotion: 10
+perks:
+  # Id da perk
+  1:
+   # Porcentagem do Desconto
+   promotion: 30
+   cash_promotion: 10

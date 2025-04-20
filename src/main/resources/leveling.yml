@@ -1,0 +1,18 @@
+title: 'Recompensas de Níveis'
+rows: 5
+rewards:
+  # ID da Liga.
+  2:
+    league: 2
+    slot: 10
+    icon: 'STORAGE_MINECART : 1 : nome>{color}Divisão - 2 : desc>&7Recompensa para você ao\n&7atingir a segunda liga!\n \n &8▪ &f50 Cash\n &8▪ &f1 Cápsulas Mágicas'
+    rewards:
+      - 'CASH>50'
+      - 'COMANDO>mb dar {name} 1'
+  3:
+    league: 3
+    slot: 11
+    icon: 'STORAGE_MINECART : 1 : nome>{color}Divisão - 3 : desc>&7Recompensa para você ao\n&7atingir a terceira liga!\n \n &8▪ &f100 Cash\n &8▪ &f5 Cápsulas Mágicas'
+    rewards:
+      - 'CASH>100'
+      - 'COMANDO>mb dar {name} 5'
